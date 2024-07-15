@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+.common_title {
+	font-size: 17px;
+	padding: 0;
+	margin-bottom: 50px;
+}
+
+input:focus {
+	outline:none;
+}
+
+
+input.text {
+	flex: 1;
+	font-size: 11px;
+	padding: 0 10px;
+	overflow: hidden;
+	border: none;
+}
+
+.input_label {
+	font-size: 11px;
+	width: 100%;
+}
+
+div.common_input {
+	display: flex;
+	border: solid 1px black;
+	cursor: text;
+	height: 30px;
+	width: 100%;
+}
+
+
+.common_btn {
+	display: block;
+	width: 100%;
+	height: 45px;
+	cursor: pointer;
+	margin: 0;
+	line-height: 45px;
+	text-align: center;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.common_mt4 {
+	margin-top: 4px;
+}
+
+.common_btn button{
+	background-color: transparent;
+	border: none;
+}
+
+a {
+	color: #333;
+	text-decoration: none;	
+}
+
+
+label.common_input_label {
+	font-size: 11px;
+}
+
+/* input 파란배경 없애기 */
+input:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px #fff inset ; -webkit-text-fill-color: #000; }
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active { transition: background-color 5000s ease-in-out 0s; }

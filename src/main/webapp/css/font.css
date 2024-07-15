@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import"https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap";@import"https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap";body,html {
+    line-height: 1.3333;
+    color: #000
+}
+
+@font-face {
+   font-family: "Apple SD Gothic Neo"; /* 사용하고 싶은 font-family명을 지정 */
+   src: url("../font/AppleSDGothicNeoT.ttf") format("opentype"); /* 폰트파일 불러오기 */
+   font-weight: 100;
+    font-style: normal;
+    unicode-range: U+AC00-D7A3
+}
+
+@font-face {
+   font-family: "Apple SD Gothic Neo"; /* 사용하고 싶은 font-family명을 지정 */
+   src: url("../font/AppleSDGothicNeoR.ttf") format("opentype"); /* 폰트파일 불러오기 */
+   font-weight: 400;
+    font-style: normal;
+    unicode-range: U+AC00-D7A3
+}
+
+@font-face {
+   font-family: "Apple SD Gothic Neo"; /* 사용하고 싶은 font-family명을 지정 */
+   src: url("../font/AppleSDGothicNeoM.ttf") format("opentype"); /* 폰트파일 불러오기 */
+   font-weight: 500;
+    font-style: normal;
+    unicode-range: U+AC00-D7A3
+}
+
+@font-face {
+   font-family: "Apple SD Gothic Neo"; /* 사용하고 싶은 font-family명을 지정 */
+   src: url("../font/AppleSDGothicNeoSB.ttf") format("opentype"); /* 폰트파일 불러오기 */
+   font-weight: 600;
+    font-style: normal;
+    unicode-range: U+AC00-D7A3
+}
+
+body {
+   font-family: "Helvetica Neue", "Apple SD Gothic Neo", sans-serif;
+   font-kerning: auto;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-variant-alternates: normal;
+   font-variant-caps: normal;
+   font-variant-east-asian: normal;
+   font-variant-ligatures: normal;
+   font-variant-numeric: normal;
+   font-variant-position: normal;
+   font-variation-settings: normal;
+   text-rendering: auto;
+}
+
+html * {
+    font-family: "Helvetica Neue","Apple SD Gothic Neo",sans-serif !important;
+    letter-spacing: -0.2px;
+}

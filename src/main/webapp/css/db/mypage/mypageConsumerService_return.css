@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+div#member {
+    display:flex;
+    padding: 0 90px;
+    margin-top:100px;
+}
+
+
+/* -- mypage_right -- */
+div#mypage_right {
+    width: 100%;
+}
+
+div#mypage_right > div > div h3 {
+    margin: 0;
+    padding-bottom:20px;
+    font-weight:400;
+    font-size:16pt;
+}
+
+div.page_title {
+    display:flex;
+}
+
+ul.ul__cate {
+    display:flex;
+    margin-left:auto;
+    list-style-type:none;
+    padding:0;
+}
+
+ul.ul__cate > li > a {
+    text-decoration:none;
+    padding-left:20px;
+    color:#c6c6c6;
+    font-size:16pt;
+}
+
+ul.ul__cate > li > a:hover {
+    color:#000;
+}
+
+ul.ul__cate > li > a.__ac {
+    color:#000;
+}
+
+
+
+
+
+
+div#mypage_right > table#product_info th.table_title {
+    background-color: #f6f6f6;
+    text-align:center;
+}
+
+div#mypage_right > table#product_info {
+    border-collapse:collapse;
+    margin-bottom:45px;
+    width:100%;
+}
+
+div#mypage_right > table#product_info tr.bold_line th {
+    font-weight:normal;
+}
+
+tr.bold_line {
+    border-top:solid 1px #000;
+    border-bottom:solid 1px #000;
+}
+
+tr.opac_line {
+    border-top:solid 1px #C6C6C6;
+    border-bottom:solid 1px #C6C6C6;
+}
+
+tr.none_line {
+    border:none;
+}
+
+div#mypage_right > table#product_info tr {
+    height:42px;
+}
+
+
+    /* 본문 */
+table#product_info > tbody > tr > td > ul {
+    list-style-type:none;
+    padding:0;
+    width:80%;
+    margin:0 auto;
+}
+
+li.list__title {
+    font-weight:bold;
+    font-size:16pt;
+    margin-top:70px;
+}
+
+li.list__content {
+    margin-top:25px;
+}
+
+li.add__notice {
+    color:#707070;
+}
+
+table#product_info table {
+    width:100%;
+    margin: 40px 0 20px 0;
+}
+
+table#product_info table th:nth-child(1) {
+    width:7%;
+}
+
+table#product_info table th:nth-child(2) {
+    width:10%;
+}
+
+table#product_info table th:nth-child(3) {
+    width:43%;
+}
+
+table#product_info table th,
+table#product_info table td {
+    border:solid 1px #d5d5d5;
+}
+
+table#product_info table th,
+.center__bold {
+    text-align:center;
+    font-weight:bold;
+}
+
+li > table ul {
+    list-style-type:none;
+    padding:0;
+}
+
+li > table ul.__disc {
+    list-style-type:disc;
+    padding-left:20px;
+}
+
+li > table ul.__disc > li.t__none {
+    list-style-type:none;
+}
+
+table#product_info table td.ver__top {
+    vertical-align:top;
+}
+
+table#product_info table ul {
+    margin: 20px 20px 20px 20px;
+}
+
+table#product_info table ul > li.bot__margin {
+    margin-bottom:20px;
+}
+
+table#product_info table ul.num__li > li {
+    margin-bottom:15px;
+}
+
+#product_info > tbody > tr:nth-child(2) > td > ul > li:nth-child(2) > table > tbody > tr:nth-child(6) > td:nth-child(2) > ul > li:nth-child(3) {
+    margin-bottom:0;
+}

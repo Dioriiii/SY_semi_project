@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+
+input {
+	border:none;	
+}
+
+input:focus {
+	outline: none;
+}
+
+div.input {
+	display: flex;
+	border: solid 1px black;
+	cursor: text;
+	height: 30px;
+}
+
+input.text {
+	flex: 1;
+	font-size: 12px;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+div.input-item {
+	line-height: 1.6;
+}
+
+div.input_tel_wrap {
+	display: flex;
+}
+
+div.button_checkTel {
+	flex: 0 0 100px;
+}
+
+
+
+div.button_checkTel_after {
+	flex: 0 0 80px;
+	margin: 0 0 0 4px;
+}
+
+
+button.button_checkTel {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+div.tel {
+	flex-basis: 100%; 
+}
+
+button.button_checkTel {
+	outline: none;
+	background-color: white;
+	border: none;
+}
+
+div.button_checkTel {
+	margin-left: 4px;
+	cursor: pointer;
+}
+
+div.section_inner {
+	border: solid 0px blue;
+	width: 100%;
+	max-width: 340px;
+	min-width: 340px;
+	margin: 0 auto;
+}
+
+div.join__btn {
+	margin: 50px 0 0 0;
+	padding: 0 0 40px 0;
+}
+
+div.join__btn > a {
+	display: block;
+	width: 100%;
+	height: 50px;
+	cursor: pointer;
+	margin: auto;
+	line-height: 45px;
+	text-align: center;
+	margin: 4px 0 0 0;
+	font-size: 12px;
+	text-decoration-line: none;
+}
+
+a.btn_login {
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+}
+
+
+h1 {
+	margin: 74px 0 0 0;
+	font-size: 17px;
+}
+
+form {
+	margin: 50px 0 0 0;
+}
+
+
+@media (max-width: 1200px) {
+.page__1-col {
+    padding: 0 22px;
+    max-width: 974px;
+    }  
+}
+
+.page__1-col {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 100px;
+    max-width: 1130px;
+}
+
+section {
+	width: 50%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.btn_wrap {
+	margin: 50px 0 0 0;
+	padding: 0 0 40px 0;
+}
+
+form {
+	margin: 50px 0 0 0;
+}
+
+h1.title {
+	margin: 74px 0 0 0;
+}

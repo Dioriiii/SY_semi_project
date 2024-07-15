@@ -1,0 +1,335 @@
+@charset "UTF-8";
+
+body#container{
+	width: 100%;
+}
+
+#nav_wrap {
+	position: fixed;
+	width: 100%;
+	padding: 0 44px;
+	height: 70px;
+	display: flex;
+}
+
+a.logo_img{
+	margin: auto 0;
+}
+
+.sticky-top{
+	border: solid 0px blue;
+	padding:0;
+	margin-top: 0;
+}
+
+nav.navbar {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav.navbar a {
+	line-height: 70px;
+	padding: 0 0;
+}
+
+div.align-left{
+	padding: 0 0 0 34px;
+	height: 70px;
+}
+
+/*
+#align-right,
+#mySidepane0 > span {
+	border: solid 0px red;
+	display:flex;
+	justify-content: space-between;
+}
+
+#align-right > ul > li{
+	border: solid 0px red;
+	padding-top:4px
+}
+
+#mySidepane0 > span{
+	border: solid 1px red;
+	line-height:250%;
+}
+
+#mySidepane0{
+	line-height:300%;
+}
+
+*/
+body#container > nav > div > ul.navbar-nav {
+	display:flex;
+}
+body#container > nav > div.sidepanel a.nav-link,
+#side_bar_container > span > a {
+	font-size: 12px;
+	color:black;
+}
+
+a.header_footer_font {
+	color: white;
+	font-weight: bold;
+}
+
+button.navbar-toggler{
+	align-items: center;
+	flex-direction: column;
+}
+
+label{
+	vertical-align: super;
+	font-size:8pt;
+	font-weight:bold;
+}
+
+div#category_container{
+	overflow: hidden;
+	border:solid 0px red;
+}
+
+span.category_name{
+	display: block;
+	font-size: 11px;
+    text-align: center;
+    color: black;
+}
+
+div#category_container > ul > li > a {
+	 text-decoration: none;
+	 border: solid px red;
+}
+
+div#category_container > ul {
+	border:solid 0px blue;
+	display: block;
+    white-space: nowrap;
+	margin:auto;
+	padding: 25px 0 39px;
+	text-align: center;
+}
+
+div#category_container > ul > li {
+	border: solid 0px green;
+	display: inline-block;
+	list-style: none;
+	margin-left:10px;
+}
+
+span.category_img{
+	display: block;
+    white-space: nowrap;
+	padding:5px;
+	margin-bottom:15px;
+	border: 1px solid rgba(0,0,0,0);
+	box-sizing: border-box;
+	transition: border-color .6s ease;
+    /*transition-behavior: normal;*/
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+	overflow: hidden;
+
+}
+
+span.category_img_select {
+	display: block;
+    white-space: nowrap;
+	padding:5px;
+	margin-bottom:15px;
+	border: 1px solid rgba(0,0,0,0);
+	box-sizing: border-box;
+	transition: border-color 0s ease;
+    /*transition-behavior: normal;*/
+    transition-duration: 0s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+	overflow: hidden;
+}
+
+h3.banner_title{
+	border:solid 0px blue;
+	font-size:20px;
+	font-weight:600;
+}
+p.banner_txt{
+	border:solid 0px green;
+	font-size:14px;
+	line-height: 1.4;
+	margin: 24px 0 12px 0;
+	padding:0 20px;
+}
+
+div#banner_content{
+	border:solid 0px red;
+	margin: 40px auto 60px;
+	text-align:center;
+	max-width:727px;
+	font-family: "Apple SD Gothic Neo",sans-serif !important;
+	word-break:keep-all;
+	font-weight:400;
+}
+
+div#footer_content{
+	border: solid 0px red;
+	
+}
+
+div.col-lg-2 > span{
+	text-align: center;
+}
+
+.content_title{
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom:7%;
+}
+
+.content_txt {
+	margin-bottom:7%;
+	font-size: 11px;
+}
+
+.content_title,
+.content_txt {
+	display:block;
+}
+
+span.social_link{
+	font-weight: 600;
+}
+
+span.social_link > a {
+	text-decoration: none;
+	color:black;
+}
+
+.header_footer_font{
+	font-family: "Helvetica Neue","Apple SD Gothic Neo",sans-serif !important;
+	font-size: 12px;
+	font-weight: 500;
+    color: #535353;
+}
+
+div#footer_bottom{
+	margin-top:2.5%;
+	text-align:center;
+	margin-bottom:4.5%;
+}
+
+div#footer_bottom > div.footer_info{
+	font-size: 11px;
+    color: #535353;
+    line-height:25px;
+}
+
+div#footer_bottom > div > a{
+	text-decoration: underline;
+    color: #535353;
+}
+
+div#footer_bottom > div:nth-child(2) {
+	line-height: 18px;
+	margin:1.5% 0;
+}
+
+div#footer_bottom > div.copyright{
+	font-size: 11px;
+	font-weight: 600;
+}
+
+body#container > div#footer_content > div {
+	margin-top: 2.5%;
+	margin-bottom: 1%;
+}
+
+span.content_txt > a{
+	color:black;
+	text-decoration: none;
+}
+
+
+
+
+@supports (position: sticky) {
+  .sticky_son {
+    position: sticky;
+    top: 63.5px;
+    background-color: white;
+    border: solid 0px red;
+    padding: 0 12px;
+    line-height: 50px;
+    font-size: 16px;
+	border-bottom:solid 1px; 
+	z-index: 1;
+  }
+
+}
+
+@media screen and (max-width : 1023px){
+	
+	.sticky_son {
+		top:39px;
+	}
+	
+	/*슬라이딩 사이드바*/
+	/*사이드바 클릭시 배경 어두워지는 효과 추가해야함!*/
+	
+	#side_bar_container {
+		display:flex;
+   	}
+
+	.side_bar{
+		padding-top:3px;
+	}
+   	
+	.sidepanel {
+	  height: 100%;
+	  width: 0; /* 0 width - change this with JavaScript */
+	  position: fixed; /* Stay in place */
+	  z-index: 1001; /* Stay on top */
+	  top: 0;
+	  right: 0;
+	  background-color: white;
+	  overflow-x: hidden; /* Disable horizontal scroll */
+	  padding-top: 60px; /* Place content 60px from the top */
+	  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+	  max-width: 385px;
+	}
+	
+	.sidepanel a {
+	  padding: 8px 8px 8px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: black;
+	  display: block;
+	  transition: 0.3s;
+	}
+	
+	div#mySidepanel > \ .closebtn {
+		position:relative;
+		font-size: 36px;
+	}
+	
+	/* Style the button that is used to open the sidepanel */
+	.openbtn {
+	  font-size: 20px;
+	  cursor:pointer;
+	  border:solid 0px;
+	  background-color:white;
+	}
+
+
+}
+
+@media screen and (min-width : 1024px){
+	
+	#side_bar_container {
+		display:none;
+   	}
+}
+

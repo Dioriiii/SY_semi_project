@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/* -- mypage_left -- */
+div#mypage_left {
+    float:left;
+    width: 270px;
+    margin-right:23px;
+}
+
+div#mypage_left > h3#mypage_link {
+    margin:0;
+    padding-bottom:20px;
+	font-weight:400;
+	font-size:16pt;
+}
+
+div#mypage_left > p {
+    display:flex;
+    margin: 0 0 17px 0;
+    padding-bottom:14.5px;
+    border-bottom:solid 1px #000;
+}
+
+div#mypage_left > p > span#user_name,
+div#mypage_left > p > span#point {
+    font-size:16pt;
+}
+
+div#mypage_left > p > span#user_name {
+    font-weight:400;
+}
+
+
+
+div#mypage_left > p > span#point {
+    margin-left:auto;
+}
+
+div#mypage_left > ul.list_md {
+    border-bottom:solid 1px #E0E0E0;
+    margin: 0 0 23px 0;
+    padding: 0 0 27px 0;
+}
+
+div#mypage_left > ul > li.list_head {
+    font-weight:550;    
+}
+
+div#mypage_left > ul > li {
+    padding: 9px 0;
+}
+
+div#mypage_left > ul {
+    padding:0px;
+}
+
+div#mypage_left li {
+    list-style-type:none;    
+}
+
+div#mypage_left a:link,
+div#mypage_left a:visited,
+div#mypage_left a:active
+{
+    color:#000;
+    text-decoration:none;
+}
+
+
+
+div#mypage_left a:hover {
+    cursor:pointer;
+}
+
+

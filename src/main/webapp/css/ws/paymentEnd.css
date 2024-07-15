@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+div.ceiling{
+	border:solid 0px red;
+	height:5%;
+}
+
+div.alert_thanks{
+	border:solid 0px red;
+	width:20%;
+	margin:auto;
+	font-size:25px;
+	text-align: center;
+	font-weight: 600;
+	padding:40px 0 40px;
+}
+
+div.alert_summary{
+	border:solid 0px red;
+	margin:auto;
+	padding-bottom:15px;
+	width:30%;
+	text-align: center;
+}
+
+div.alert_summary > p:first-child{
+	padding:0;
+	margin-bottom:1.5%;
+}
+
+div.alert_summary > p:last-child{
+	margin-bottom:12%;
+}
+
+div#tbl_container{
+	display:flex;
+}
+div.item_info > p:first-child{
+	margin:40px 0px 40px 0px;
+}
+div.item_info > p:nth-child(2){
+	margin-bottom:0;
+	line-height:1;
+}
+
+div.item_info > p:nth-child(4) {
+	border:solid 0px red;
+	text-decoration:underline;
+}
+
+div.item_info > p:nth-child(4) > a{
+	cursor:pointer;
+}
+
+table#tbl_payment_info > tbody > tr:first-child > td > span,
+div.item_info p, div.delivery_info p{
+	font-weight:500;
+}
+
+table#tbl_payment_info{
+	border:solid 0px red;
+	margin:auto;
+	width:72%;
+	text-align: center;
+	line-height:35px;
+}
+
+table#tbl_payment_info > thead{
+	background-color: #f2f2f2;
+}
+
+table#tbl_payment_info > thead,
+table#tbl_payment_info > tbody > tr{
+	border-top:solid 1px gray;
+}
+
+table#tbl_payment_info > tbody > tr:last-child,
+table#tbl_payment_info > tbody > tr:last-child > td:last-child > div.payment_info > span.price{
+	border-bottom:solid 1px gray;
+}
+
+table#tbl_payment_info > tbody > tr:first-child > td > span {
+	float: left;
+}
+
+table#sub_table > tbody > tr {
+	border-bottom:solid 1px gray;
+	font-size:9.5pt;
+	font-weight:550;
+	line-height:2.5;
+	
+}
+
+table#tbl_payment_info > tbody > tr:last-child > td:nth-child(2){
+	border:solid 0px red;
+	width:40%;
+}
+
+table#tbl_payment_info > tbody > tr:last-child > td:nth-child(2) p{
+	margin:0;
+}
+
+table#tbl_payment_info > tbody > tr:last-child > td:last-child > div.payment_info > p{
+	margin:0;
+	font-size:13pt;
+}
+
+
+div#btn_container{
+	border:solid 0px red;
+	margin-top:3%;
+}
+
+div#btn_container > button.btn{
+	border:solid 1px black;
+	font-size:9.5pt;
+	display: block;
+	width: 21%;
+	margin:auto;
+	line-height:2.5;
+}
+
+div#btn_container > button.btn-dark{
+	margin-bottom:0.5%;
+}
+
+div#btn_container > button.btn-white{
+	margin-bottom:8%;
+}
+

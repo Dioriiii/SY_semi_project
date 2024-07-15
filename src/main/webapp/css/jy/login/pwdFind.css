@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+html {
+  line-height : 1.33; /*기본 행간 높이*/
+}
+
+
+div.input-item {
+	line-height: 1.6;
+}
+
+div.input_tel_wrap {
+	display: flex;
+}
+
+div.button_checkTel {
+	flex: 0 0 100px;
+}
+
+div.button_checkTel_after {
+	flex: 0 0 100px;
+	margin: 0 0 0 4px;
+}
+
+.input-item {
+	display: inline;
+	margin: 25px 0 0 0;
+}
+
+
+button.button_checkTel {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+div.tel {
+	flex-basis: 100%; 
+}
+
+button.button_checkTel {
+	outline: none;
+	background-color: white;
+	border: none;
+}
+
+div.button_checkTel {
+	margin-left: 4px;
+	cursor: pointer;
+}
+
+div.section_inner {
+	border: solid 0px blue;
+	width: 100%;
+	max-width: 340px;
+	min-width: 340px;
+	margin: 0 auto;
+}
+
+.goRegister_btn {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+}
+#container > div > div > section > div > form > div.btn_wrap > a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.sendCode_btn {
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+}
+
+.common_btn button {
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+
+div.btn_wrap {
+	margin: 50px 0 0 0;
+	padding: 0 0 40px 0;
+}
+
+form {
+	margin: 50px 0 0 0;
+}
+
+@media (max-width: 1200px) {
+.page__1-col {
+    padding: 0 22px;
+    max-width: 974px;
+    }  
+}
+.btn-wrap {
+	display: flex;
+}
+.page__1-col {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 100px;
+    max-width: 1130px;
+}
+.common_btn {
+	border: 1px solid black;
+}
+section {
+	width: 50%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+
+div#container {
+    position: relative;
+    padding-bottom: 200px;
+    min-height: calc(100vh - var(--headerHeight))
+}
+
+@media(max-width: 1023px) {
+    div#container {
+        padding-bottom:80px
+    }
+}
+
+/* 여기부턴 비밀번호 변경 페이지 */
+
+div.error_pwd_notice {
+	margin: 10% 0;
+	color:#707070;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	font-size: 10px;
+}
+ul > li {
+	margin: 3% 0;
+}
+
+.chgPwd_btn {
+    background-color: black;
+	color: white;
+	text-decoration-line: none;
+	margin: 50px 0 0 0;
+}
+
+

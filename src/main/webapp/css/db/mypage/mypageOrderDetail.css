@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+::selection {
+    color:#fff;
+    background-color:#333333;
+}
+
+div#member {
+    display:flex;
+    padding: 0 90px;
+    margin-top:100px;
+}
+
+
+/* -- mypage_right -- */
+div#mypage_right {
+    width: 100%;
+}
+
+div#mypage_right > div > div h3 {
+    margin: 0;
+    padding-bottom:20px;
+    font-weight:400;
+    font-size:16pt;
+}
+
+div#mypage_right > table th.table_title {
+    background-color: #f6f6f6;
+    text-align:center;
+}
+
+div#mypage_right > table#product_info {
+    border-collapse:collapse;
+    margin-bottom:60px;
+    width:100%;
+}
+
+div#mypage_right > table th {
+    font-weight:normal;
+}
+
+div.order_date{
+    margin-left:20px;
+    font-size:10pt;
+}
+
+span#order_date {
+    margin-right:15px;
+}
+
+span#order_date,
+span#order__no {
+    font-weight:bold;
+}
+
+div#mypage_right > table tr {
+    height:42px;
+}
+
+
+
+tr.bold_line {
+    border-top:solid 1px #000;
+    border-bottom:solid 1px #000;
+}
+
+tr.opac_line {
+    border-top:solid 1px #C6C6C6;
+    border-bottom:solid 1px #C6C6C6;
+}
+
+.opac_line__bt {
+    border-bottom:solid 1px #C6C6C6;
+}
+
+tr.none_line {
+    border:none;
+}
+
+
+
+        /* 상품 정보 테이블 */
+/* 구매내역 없음 */
+td.non_order_list_td {
+    text-align:center;
+    height:470px;
+}
+
+
+
+
+    /* 상품 행*/
+tr.product_detail > td:nth-child(1) {
+    width:100px;
+}
+
+tr.product_detail > td:nth-child(1) > img.product_image {
+    width:100px;
+}
+
+tr.product_detail td:nth-child(2) > ul.ul_info {
+    width:80%;
+    list-style-type: none;
+    padding-left:20px;
+    font-size: 11pt;
+    margin-bottom:0;
+}
+
+tr.product_detail td:nth-child(3) {
+    font-size: 11pt;
+    text-align:center;
+    text-decoration: underline;
+    text-underline-offset:4px;
+}
+
+
+/* 결제 정보 */
+table#payment__info { 
+    border-collapse:collapse;
+    width:100%;
+}
+
+table#payment__info tr.payment__info__hd > th:nth-child(1) {
+    width:37%;
+}
+
+table#payment__info tr.payment__info__hd > th:nth-child(2) {
+    width:33%;
+    text-align:center;
+}
+
+
+table#payment__info > tbody > tr:nth-child(2) > td {
+    padding:50px 0;
+}
+
+td.user__info {
+    vertical-align:top;
+}
+
+td.user__info  ul{
+    list-style-type:none;
+    width:80%;
+    padding:0;
+}
+
+td.payment__info > ul {
+    list-style-type:none;
+    margin:0 auto;
+    width:80%;
+    padding:0 0 50px 0;
+}
+
+td.payment__info > ul > li {
+    line-height:43px;
+}
+
+td.payment__info > ul > li.font__bold {
+    font-weight:bold;
+}
+
+
+
+div.__flex {
+    display:flex;
+}
+
+div.__flex_right {
+    margin-left:auto;
+}
+
+.payment__info > div {
+    text-align:center;
+}
+
+
+td.ver__top > div {
+    margin-left:auto;
+    text-align:right;
+    width:270px;
+}
+
+td.ver__top {
+    vertical-align:top;
+    font-size:10pt;
+}
+
+td.ver__top > div button {
+    border:solid 1px #000;
+    height:50px;
+}
+
+td.ver__top > div > div.__flex {
+    margin-bottom:10px;
+}
+
+td.ver__top > div > div#up__reset > div > button {
+    width:130px
+}
+
+td.ver__top > div > div#go_order__list > button {
+    width:100%
+}
+
+
+
+/* 취소 반품 교환 안내 */
+div.__notification {
+    padding:60px 0 ;
+}
+
+div.__notification > ul {
+    list-style-type:none;
+    padding:0;
+}
+
+li.list__title {
+    font-weight:bold;
+    font-size:11pt;
+}
+
+li.list__head {
+    margin-top:15px;
+    font-weight:bold;
+    font-size:9pt;
+}
+
+li.list__cont {
+    margin-top:8px;
+    line-height:12px;
+    color:#747474;
+    font-size:8pt;
+    
+}
+
+li.List_add__cont {
+    margin-top:30px;
+    color:#747474;
+    font-size:8pt;
+}
+
+button.white__ {
+    color:#000;
+    background-color: #fff;
+}
+
+button.white__:hover {
+    font-weight:bold;    
+}
+
+button.active__btn {
+	background-color: #000;
+	color: #fff;
+}
+
+td.out__ {
+    color:#C6C6C6;
+}
+
+li.bar__ {
+    border-bottom:solid 1px #C6C6C6;
+}
+
+ul#user__address__info > li {
+    line-height:30px;
+} 
+
+ul#user__address__info input {
+    height:22px; 
+    border:#fff;
+    outline:none;
+}
+
+#address {
+    display:inline-block;
+    width:250px;
+}
+
+#postcode {
+    width:60px;
+}
+
+div#select__div {
+    
+    margin-bottom:10px;
+}
+
+select#reason__ {
+    width:100%;
+    height:50px;
+    padding-left:20px;
+    outline:none;
+    border:solid 1px #000;
+}
+
+td.ver__top > div button:disabled {
+    border:solid 1px #C6C6C6;
+    color: #C6C6C6;
+    background-color:#fff;
+    height:50px;
+}
+
+span.it_volume,
+span.to__price,
+span.pur__quantity
+{
+    font-weight:bold;
+}

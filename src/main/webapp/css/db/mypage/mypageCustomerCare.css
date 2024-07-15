@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+div#member {
+    display:flex;
+    padding: 0 90px;
+    margin-top:100px;
+}
+
+
+/* -- mypage_right -- */
+div#mypage_right {
+    width: 100%;
+}
+
+div#mypage_right > div > div  h3 {
+    margin: 0;
+	font-weight:400;
+    padding-bottom:20px;
+	font-size:16pt;
+}
+
+div#mypage_right > table th.table_title {
+    background-color: #f6f6f6;
+}
+
+
+div#mypage_right > table {
+    border-collapse:collapse;
+    width:100%;
+}
+
+div#mypage_right > table th.table_title {
+    font-weight:400;
+}
+
+tr.bold_line {
+    border-top:solid 1px #000;
+    border-bottom:solid 1px #000;
+}
+
+tr.opac_line {
+    border-top:solid 1px #C6C6C6;
+    border-bottom:solid 1px #C6C6C6;
+}
+
+tr.none_line {
+    border:none;
+}
+
+div#mypage_right > table tr {
+    height:42px;
+}
+
+div#mypage_right > table tr.bold_line > th > ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+div#mypage_right > table tr.bold_line > th > ul > li {
+    display:inline;
+    padding:0 21.5px;
+    
+}
+
+div#mypage_right > table tr.bold_line > th > ul > li > a:link,
+div#mypage_right > table tr.bold_line > th > ul > li > a:visited,
+div#mypage_right > table tr.bold_line > th > ul > li > a:active
+{
+    color:#707070;
+    text-decoration:none;
+}
+
+
+div#mypage_right > table tr.bold_line > th > ul > li > a:hover {
+    color:#000;
+    cursor:pointer;
+}
+
+ul.FAQ__list {
+	list-style: none;
+	padding:0;
+	width: 100%;
+}
+
+ul.FAQ__list > li.FAQ__one {
+	border-bottom:solid 1px #c6c6c6;
+	font-size:10pt;
+}
+
+ul.FAQ__list > li.FAQ__one > div.FAQ__question {
+	display:flex;
+	padding:17px 20px;
+}
+
+ul.FAQ__list > li.FAQ__one > div.FAQ__question:hover {
+	cursor:pointer;
+}
+
+ul.FAQ__list > li.FAQ__one > div.FAQ__question > div.__question_angle_down {
+	margin-left:auto;
+}
+
+ul.FAQ__list > li.FAQ__one > div.FAQ__answer {
+	color: #707070;
+	display: none;
+	padding: 17px 17px 32px 17px;
+	
+}
+
+svg {
+	transition: 0.5s;
+}
+
+.turn__180 {
+	transform: rotate(180deg);
+	transition: 0.5s;
+}
+
+a.active__ {
+	color:#000;
+	font-weight: bold;
+}
+
+
+/* 페이징 */
+div.paging__div {
+	margin-top:70px;
+	display:flex;
+}
+
+ul.paging__ul {
+	margin:auto;
+	display:flex;
+	list-style-type:none;
+	padding:0;
+}
+
+ul.paging__ul > li {
+	padding:0 20px;
+	font-size:13pt;
+}
+
+li.page__ > a {
+	color:#707070;
+	text-decoration:none;
+}
+
+li.active__page > a {
+	color:#000;
+}
+
+

@@ -1,0 +1,373 @@
+@charset "UTF-8";
+
+div#member {
+    display:flex;
+    padding: 0 90px;
+    margin-top:100px;
+}
+
+
+
+/* -- mypage_right -- */
+div#mypage_right {
+    width: 100%;
+}
+
+div#mypage_right > table {
+    border-collapse:collapse;
+    margin-bottom:45px;
+    width:100%;
+}
+
+div#mypage_right > table th {
+    text-align:center;
+}
+
+a.agree {
+	color: black;
+}
+a.agree:hover {
+	color: black;
+	font-weight: bold;
+}
+
+
+
+/* 헤드-남길것 */
+.sub_title_div{
+	display: flex;
+	width: 100%;
+    height:42px;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    background-color: #f6f6f6;
+}
+
+div#mypage_right h3 {
+   margin: 0;
+   font-weight:400;
+   padding-bottom:20px;
+   font-size:16pt;
+}
+
+.sub_title_sp {
+	margin: auto;
+	font-size: 16px;
+}
+
+.inner_contents_wrap {
+	display: flex;
+	justify-content: center;
+	padding: 0 100px;
+}
+
+.inner_contents {
+	width: 50%;
+	margin: 127px 0 0 0;
+	
+}
+
+
+.btn_wrap  {
+	margin: 65px 0px 0 0;
+	padding: 0 0 0px 0;
+	display: flex;
+	justify-content: center;
+}
+
+#btn_pwdCheck {
+	max-width: 335px;
+}
+
+div#btn_pwdCheck {
+	
+	background-color: black;
+}
+
+div#btn_pwdCheck > button {
+	color: white;
+}
+
+div#div_pw {
+	height: 43px;
+}
+
+
+
+
+/** 여기부터 member register 에서 갖고옴 */
+
+div#divRegisterFrm  {
+    
+    padding: 0 0 50px 0;
+    margin: 70px 0 0 0;
+}
+
+
+div.section_inner {
+	border: solid 0px blue;
+	width: 100%;
+	max-width: 330px;
+	min-width: 330px;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+
+span {
+	vertical-align: middle;
+}
+
+select#gender {
+	width: 100%;
+	height:100%;
+	border: none;
+	color: grey;
+	font-size: 12px;
+	padding: 0 10px;
+}
+select.tam-select_input {
+	border: 0px solid blueviolet;
+	height:100%;
+}
+
+
+select#gender:focus,
+select.tam-select_input:focus {
+	outline: none;
+}
+
+input#mobile,
+input#birthday {
+	color: grey;
+}
+
+div.input_email_container {
+	display: flex;
+}
+
+div.text_wrap {
+	margin: 0 4px; 
+}
+
+div.input_email {
+	flex: 0 0 100px;
+}
+
+div.input_email_wrap,
+div.input_tel_wrap {
+	display: flex;
+	border: 0px solid yellowgreen;
+}
+
+div.div_select_email {
+	margin: 0 0 0 4px;
+	width: 100%;
+}
+
+div.div_select_email select {
+	width: inherit;
+	font-size: 12px;
+}
+
+div.input_email_container input {
+	width: 50%;
+}
+
+div.agree_list {
+	margin: 50px 0 40px 0;
+}
+
+label.agree {
+	padding: 0 0 0 22px;
+	font-size: 10px;
+}
+
+label.agreeAll{
+	padding-bottom: 22px;
+	font-size: 13px;
+}
+
+div.checkAll {
+	margin: 0 0 20px 0;
+}
+
+#goEdit_btn {
+	background-color: black;
+	color: white;
+	text-decoration-line: none;
+}
+
+#goQuit_btn {
+	border: solid 1px black;
+	background-color: white;
+	color: black;
+	text-decoration-line: none;	
+	margin: 5px 0 0 0;
+}
+
+
+div.btn_item {
+	flex: 0 0 100px;
+}
+
+div.btn_item_sm {
+	flex: 0 0 80px;
+	margin: 0 0 0 4px;
+}
+
+
+button.btn_item {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	font-size: 11px;
+}
+
+div.tel {
+	flex-basis: 100%; 
+}
+
+button.btn_item {
+	outline: none;
+	background-color: white;
+	border: none;
+}
+
+div.btn_item {
+	margin-left: 4px;
+	cursor: pointer;
+}
+
+div.error_pwd_notice {
+	margin: 10% 0;
+	color:#707070;
+}
+
+div#detail_add {
+	margin: 4px 0 0 0;
+}
+
+div.label_add {
+	display: flex;
+}
+
+div.error_pwd_notice > ul {
+	list-style-type: none;
+	padding: 0px;
+	font-size: 10px;
+}
+li.member-notice__item {
+	margin: 3% 0;
+}
+
+div.input-item {
+	margin: 20px 0 0 0;
+}
+
+input.checkbox-item {
+	margin: 0 5px 0 0;
+}
+a.agree {
+	font-weight:bold;
+	text-decoration : underline;
+}
+
+label.agree{
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+label.agree input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+div.checkbox-item{
+	display: flex;
+}
+
+span.checkbox-shape {
+  position: absolute;
+  top: 1.5px;
+  left: 0;
+  height: 13px;
+  width: 13px;
+  background-color: transparent;
+  border: 1px solid #c3c3c3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+span.checkbox-shape:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+label.agree input:checked ~ span.checkbox-shape:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+span.checkbox-shape:after{
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 7px;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+div.agree_list span {
+	margin: 0 10px 0 0 ;	
+}
+
+input[readonly] {
+	color: #666;
+    background-color: #f4f4f4;
+    
+}
+
+.err_banner {
+	            position: fixed;
+                top: -48px;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 48px;
+                line-height: 45px;
+                background: #D12B2B;
+                font-size: 13px;
+                color: #fff;
+                text-align: center;
+                z-index: 2001;
+                word-break: break-all;
+                word-wrap: break-word
+}
+
+.show {
+	transform: translateY(100%);
+	transition: transform 0.5s ease-in-out;
+}
+
+.hide {
+	transform: translateY(0%);
+	transition: transform 0.5s ease-in-out;
+}
+
+form#EditFrm {
+	margin-bottom: 150px
+}

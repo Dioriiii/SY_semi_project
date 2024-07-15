@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+div#member {
+    display:flex;
+    padding: 0 90px;
+    margin-top:100px;
+}
+
+
+/* -- mypage_right -- */
+div#mypage_right {
+    width: 100%;
+}
+
+
+div#mypage_right > div > div h3 {
+    margin: 0;
+    padding-bottom:20px;
+    font-weight:400;
+    font-size:16pt;
+}
+
+div#mypage_right > div.head_div {
+    display:flex;
+}
+
+div#mypage_right > div.head_div > div.page_category > ul > li:hover {
+    cursor:pointer;
+    color:#000;
+}
+
+div#mypage_right > table th.table_title {
+    background-color: #f6f6f6;
+    text-align:center;
+}
+
+div#mypage_right > table {
+    border-collapse:collapse;
+    margin-bottom:45px;
+    width:100%;
+}
+
+div#mypage_right > table th {
+    font-weight:normal;
+}
+
+tr.bold_line {
+    border-top: solid 1px #000;
+    border-bottom:solid 1px #000;
+}
+
+tr.opac_line {
+    border-top:solid 1px #C6C6C6;
+    border-bottom:solid 1px #C6C6C6;
+}
+
+tr.none_line {
+    border:none;
+}
+
+
+div#mypage_right > table tr {
+    height:42px;
+}
+
+
+
+        /* 상품 정보 테이블 */
+div#mypage_right > table td.product {
+    height:110px;
+    display:flex;    
+}
+
+td.non_order_list_td {
+    text-align:center;
+    height:470px;
+}
+
+div#date_info {
+    display:flex;
+}
+
+
+div#date_info > div.order_date{
+    margin-left:20px;
+    font-size:10pt;
+}
+
+
+div.order_detail_view_div {
+    margin-right:20px;
+    font-size:10pt;
+    margin-left:auto;
+}
+
+a.order_detail_view_a,
+tr.product_detail > td:nth-child(3) > button
+{
+    cursor:pointer;
+    font-size:10pt;
+}
+a.order_detail_view_a:hover,
+tr.product_detail > td:nth-child(3) > button:hover {
+    font-weight:bold;
+}
+
+a.order_detail_view_a:link,
+a.order_detail_view_a:visited,
+a.order_detail_view_a:active,
+a.order_detail_view_a:hover,
+a.order_detail_view_a{
+    color:#000;
+    text-decoration:none;
+}
+
+
+    /* 상품 행*/
+tr.product_detail > td:nth-child(1) {
+    width:200px;
+}
+
+tr.product_detail > td:nth-child(1) > img.product_image {
+    width:200px;
+}
+
+tr.product_detail > td:nth-child(2) {
+    width:600px;
+}
+
+tr.product_detail > td:nth-child(2) > ul.ul_info {
+    list-style-type: none;
+    padding-left:30px;
+}
+
+tr.product_detail > td:nth-child(2) > ul.ul_info > li {
+    line-height:30px;
+    
+}
+
+tr.product_detail > td:nth-child(3) > button {
+    width:100%;
+    height:42px;
+    background-color:#fff;
+    border:solid 1px #000;
+}
+
+span#order_date{
+	font-weight: bold;
+}
+
+li.product__o_status {
+    font-weight:bold;
+}
+
+button.product_review_btn {
+    margin-bottom:5px;
+}
+
+img.review_product_image {
+    width:50px;
+    margin-left:40px;
+}
+
+div.modal-header > div {
+    padding-left:5px;
+}
+
+button.tam_btn {
+    width:80px;
+    height:38px;
+    background-color:#fff;
+    border:solid 1px #000;
+    font-size:13px;
+    cursor: pointer;
+}
+
+button.tam_btn:hover {
+	font-weight: bold;
+}

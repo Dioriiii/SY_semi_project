@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+.common_title {
+	font-size: 17px;
+	padding: 0;
+	margin-bottom: 50px;
+}
+
+input:focus {
+	outline:none;
+}
+
+
+input.text {
+	flex: 1;
+	font-size: 12px;
+	padding: 0 10px;
+	overflow: hidden;
+	border: none;
+}
+
+.input_label {
+	font-size: 11px;
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+div.common_input {
+	display: flex;
+	border: solid 1px black;
+	cursor: text;
+	height: 33px;
+	width: 100%;
+}
+
+
+.common_btn {
+	display: block;
+	width: 100%;
+	height: 45px;
+	cursor: pointer;
+	margin: 0;
+	line-height: 45px;
+	text-align: center;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.common_mt4 {
+	margin-top: 4px;
+}
+
+.common_btn button{
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+
+.bk_btn {
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	
+}
+.bk_btn:hover, .wh_btn:hover, .common_btn:hover {
+	transition: all .2s ease-in-out;
+	opacity: 0.8;
+}
+
+.wh_btn {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
+a {
+	color: #333;
+	text-decoration: none;	
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+label.common_input_label {
+	font-size: 11px;
+}
+
+/* 에러 메시지 관련 */
+
+.red_box {
+	border: solid 1px #d12b2b;
+}
+
+.err_banner span {
+	margin: auto;
+}
+
+.err_banner {
+	            position: fixed;
+                top: -48px;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 48px;
+                line-height: 45px;
+                background: #D12B2B;
+                font-size: 13px;
+                color: #fff;
+                text-align: center;
+                z-index: 2001;
+                word-break: break-all;
+                word-wrap: break-word
+}
+
+.show {
+	transform: translateY(100%);
+	transition: transform 0.5s ease-in-out;
+}
+
+.hide {
+	transform: translateY(0%);
+	transition: transform 0.5s ease-in-out;
+}
+
+input[readonly] {
+	color: #666;
+    background-color: #f4f4f4;
+    
+}
+
+
+/* input 파란배경 없애기 */
+input:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px #fff inset ; -webkit-text-fill-color: #000; }
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active { transition: background-color 5000s ease-in-out 0s; }

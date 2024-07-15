@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+div#member {
+    display:flex;
+    padding: 0 90px;
+    margin-top:100px;
+}
+
+/* -- mypage_left -- */
+div#mypage_left {
+    float:left;
+    width: 270px;
+    margin-right:23px;
+}
+
+div#mypage_left > h3#mypage_link {
+    margin:0;
+    padding-bottom:17px;
+	font-weight:400;
+	font-size:16pt;
+}
+
+div#mypage_left > p {
+    display:flex;
+    margin: 0 0 17px 0;
+    padding-bottom:14.5px;
+    border-bottom:solid 1px #000;
+}
+
+
+
+div#mypage_left > p > span#user_name,
+div#mypage_left > p > span#point {
+    font-size:16pt;
+}
+
+div#mypage_left > p > span#user_name {
+    font-weight:400;
+}
+
+
+
+div#mypage_left > p > span#point {
+    margin-left:auto;
+}
+
+div#mypage_left > ul.list_md {
+    border-bottom:solid 1px #E0E0E0;
+    margin: 0 0 23px 0;
+    padding: 0 0 27px 0;
+}
+
+div#mypage_left > ul > li.list_head {
+    font-weight:550;    
+}
+
+div#mypage_left > ul > li {
+    padding: 9px 0;
+}
+
+div#mypage_left > ul {
+    padding:0px;
+}
+
+div#mypage_left li {
+    list-style-type:none;    
+}
+
+div#mypage_left a:link,
+div#mypage_left a:visited,
+div#mypage_left a:active
+{
+    color:#000;
+    text-decoration:none;
+}
+
+
+div#mypage_left a:hover {
+    cursor:pointer;
+}
+
+
+
+/* -- mypage_right -- */
+div#mypage_right {
+    padding-top: 45.5px;
+    width: 100%;
+}
+
+div#mypage_right > table {
+    border-collapse:collapse;
+    width:100%;
+}
+
+div#mypage_right > table th {
+    text-align:center;
+}
+div#mypage_right > table th.table_title {
+    height:42px;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    background-color: #f6f6f6;
+}
+
+div#mypage_right > table th {
+    font-weight:normal;
+}
+
+div#mypage_right > table tr {
+    height:42px;
+    border-bottom:solid 1px #C6C6C6;
+}
+
+tr.column_text:hover {
+	background-color: #f6f6f6;
+	cursor: pointer;
+}
+
+tr.column_text > td {
+	text-align: center;
+    padding: 18px;
+    font-size: 13px;
+}
+
+div.div_btn {
+    text-align:center;
+    padding-bottom:80px;
+}
+
+div.div_btn > button {
+    font-size:10pt;
+    width:330px;
+    height:45px;
+    background-color: #fff;
+    border:solid 1px #000;
+}
+
+div.div_btn > button:hover,
+button.o_status_change_btn:hover
+{
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button.o_status_change_btn:hover {
+	background-color: black;
+	color: white;
+}
+
+select.o_status_select {
+    height:45px;
+    font-size:10pt;
+    background-color:#fff;
+    border:solid 1px #000;
+}
+
+button.o_status_change_btn {
+    width:100%;
+    height:45px;
+    background-color:#fff;
+    border:solid 1px #000;
+    font-size:10pt;
+}

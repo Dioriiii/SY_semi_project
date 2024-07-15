@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+div.input {
+	border: solid 1px black;
+	cursor: text;
+	height: 30px;
+}
+
+
+div.btn_wrap {
+	margin: 30px 0 0 0;
+}
+
+a.goRegister_btn{
+	text-decoration: none;
+	color: white;
+}
+a.goRegister_btn:hover {
+	text-decoration: none;
+}
+a.link {
+	text-decoration: none;
+}
+
+a.link:hover {
+	color: black;
+	text-decoration: none;
+}
+
+#kakao_button {
+	background-color: #fee500;
+}
+
+
+#btn_login,
+.goRegister_btn {
+	background-color: black;
+	color: white;
+}
+button {
+	color: white;
+}
+
+p.right_top_txt {
+	font-size: 11px;
+}
+
+label.input-label {
+	font-size: 11px;
+	
+}
+
+div.input_item {
+	margin: 20px 0 0 0;
+	line-height: 2;
+}
+
+
+div.text-wrap > p {
+	text-align: center;
+	font-size: 11px;
+	margin-top:25px;
+	margin-bottom:100px;
+	color: black;
+}
+
+p.right_top_txt {
+	text-align: left;	
+}
+
+h1.common_title {
+	font-weight: bold;
+}
+
+div.page__2-col--wide {
+	display: flex;
+	justify-content: center;
+	margin-top: 68.5px;
+	margin-bottom: 150px;
+}
+
+
+.section__inner {
+    margin: 0 auto;
+    max-width: 329px;
+    min-width: 329px;
+}
+
+section.login-section {
+	width: 40%;
+	max-width: 582px;
+}
+
+.section--left {
+	border-right: solid 1px lightgray;
+}

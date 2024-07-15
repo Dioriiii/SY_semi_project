@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+div.main-banner_cont{
+	margin:8% 0;
+}
+
+div.main-banner_cont > div.main-banner_subject {
+	font-weight:bold;
+	font-size:18pt;
+	margin-bottom:3%;
+}
+
+div.main-banner_cont > div.main-banner_desc {
+	font-size:12pt;
+	font-weight:500;
+}
+
+div#service-info_container{
+	margin-bottom: 10%;
+}
+
+div.row{
+	width:70%;
+	margin:auto;
+}
+
+div.row > div.bd-rg {
+	border-right: solid 1px gray;
+	padding-bottom:130px;
+}
+
+div.row > div.service-info__item > h3.service-info_title{
+	font-size:14pt;
+	font-weight:550;
+	padding-bottom:45px;
+	
+}
+
+div.row > div.service-info__item > div.service-info_content{
+	font-size:11pt;
+	width:78%;
+	margin:auto;
+}
+
+
+.service_background_img > img{
+	max-width:100%;
+	height:auto;
+	display:block;
+}
+
+div.more-prd > h3.more-prd_title {
+	margin-top:8%;
+	font-size:15pt;
+	font-weight:550;
+}
+
+div.more-prd{
+	width:94%;
+	margin:auto;
+	padding-bottom:100px;
+}
+
+div.more-prd_list{
+	display:flex;
+	
+}
+
+div.more-prd_list > div.more-prd_item{
+	margin: 8% auto;
+}
+
+div.more-prd_list > div.more-prd_item > div.more-prd_info > h3.more-prd_subject {
+	margin:10% 0px 4% 0px;
+	font-size:11pt;
+	font-weight: bold;
+}
+
+div.more-prd_list > div.more-prd_item > div.more-prd_info {
+	font-size:10pt;
+}
+
+div.more-prd_content{
+	padding-bottom:15px;
+}
+
+a.more_link{
+	color: black;
+	text-decoration: underline;
+}
+
+
